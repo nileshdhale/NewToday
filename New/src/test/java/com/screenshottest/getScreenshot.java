@@ -17,7 +17,7 @@ import org.testng.annotations.Test;
 
 import com.utility.TakeScreenshot;
 
-public class getScreenshot {
+public class getScreenshot {  //only one test case
 	WebDriver driver;
 	@BeforeMethod
 	public void setup() {
@@ -49,7 +49,7 @@ public class getScreenshot {
 			
 		}
 		
-		driver.close();
+		driver.quit();
 		
 	}
 
